@@ -10,9 +10,31 @@
 </head>
 
 <body>
-  <h1>HTML Rocks!</h1>
-  <img src="img/compile.jpeg">
+  <div class="container">
+  <h1>About Me</h1>
+  <img src="img/Bibble.webp" alt="Your Avatar" class="avatar">
   <script type="module" src="js/main.js"></script>
+
+  <ul class="info-list">
+    <li>Name: Megan Aker</li>
+    <li>About Me: I'm from Portland, OR. In my senior year at BSU studying
+      Computer Science. I've had an internship at HERE Technologies focusing 
+      on cyber security and TLS certificates. 
+    </li>
+    <li>Expected Graduation: December, 2024</li>
+    <li>Currently Employed in Web Dev: Nope</li>
+    <li>Previous Job or Internship in Web Dev: Also nope lol</li>
+  </ul>
+
+  <button class="fancy-button" onclick="sayHello()">Say Hello!</button>
+</div>
+  <script>
+    function sayHello() {
+      alert('Bibble says hello!');
+    }
+  </script>
+
+
 </body>
 
 </html>
