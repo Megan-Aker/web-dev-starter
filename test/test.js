@@ -1,4 +1,4 @@
-import {sayHello, greetUser} from '../js/main.js'; // Adjust based on available functions in main.js
+import {sayHello, greetUser} from '../js/main.js'; 
 
 QUnit.module('hello', function() {
 

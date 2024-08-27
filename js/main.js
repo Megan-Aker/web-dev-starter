@@ -23,7 +23,7 @@ export function sayHello() {
  * This function returns a greeting message for a user.
  * If the name is not provided or is empty, it returns a default greeting.
  * @param {string} name - The name of the user to greet.
- * @return {string} A personalized greeting message or 'Hello, Guest!' if no name is provided.
+ * @return {string} A personalized greeting message or 'Hello, Guest!'
  */
 export function greetUser(name) {
     if (!name) {
