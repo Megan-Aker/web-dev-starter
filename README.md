@@ -2,23 +2,18 @@
 
 ## Overview
 
-TODO: Write a project description
+This project includes a simple about me page that implements basic HTML, CSS, and JavaScript. A couple Q-unit tests were also included to further test script.
+
+## Running
+
+- Open your terminal and cd into the directory you wish to clone the project into. 
+- Use Git Clone to copy the repository
+Git Clone https://github.com/Megan-Aker/web-dev-starter.git
+- Once in the desired folder, cd to the file you wish to run 
+- Install teh necessary dependencies
+npm install
+- Run the code
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+Shane Panter: https://github.com/shanep/web-dev-starter
