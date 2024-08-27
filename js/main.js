@@ -6,7 +6,9 @@ window.onload = loaded;
 function loaded() {
     // Assign to a variable so we can set a breakpoint in the debugger!
     const hello = sayHello();
+    const greet = greetUser('Caden');
     console.log(hello);
+    console.log(greet);
 }
 
 /**
@@ -15,4 +17,17 @@ function loaded() {
  */
 export function sayHello() {
     return 'hello';
+}
+
+/**
+ * This function returns a greeting message for a user.
+ * If the name is not provided or is empty, it returns a default greeting.
+ * @param {string} name - The name of the user to greet.
+ * @return {string} A personalized greeting message or 'Hello, Guest!' if no name is provided.
+ */
+export function greetUser(name) {
+    if (!name) {
+        return 'Hello, Guest!';
+    }
+    return `Hello, ${name}!`;
 }
